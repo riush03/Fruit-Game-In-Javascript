@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruit Game</title>
+        <!-- add css here-->
+        <link rel="stylesheet" href="C:\Users\San\Desktop\dennoweb\fruit_game\assets\css\style.css" />
+    </head>
+    <body>
+        <!--orderd list -->
+        <ol id=""scoreboard>
+            <li>Time Left:<span id="time">30</span></li>
+            <li><button onclick="startGame();" id="btn">Play</button></li>
+            <li>Score : <span id="score">0</span></li>
+        </ol>
+        <!-- end of unorderd list-->
+
+        <!-- game environment-->
+        <div id="env">
+            <img id="ground" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\ground.png" />
+            <img id="tree" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\tree.png" />
+            <img style="top:20opx; left:110px;" onclick="fallDown(this)" class="apple" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\apple.png"/>
+            <img style="top:205px; left:145px;" onclick="fallDown(this)" class="apple" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\apple.png"/>
+            <img style="top:170px; left:185px;" onclick="fallDown(this)" class="apple" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\apple.png"/>
+            <img style="top:215px; left:220px;" onclick="fallDown(this)" class="apple" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\apple.png"/>
+            <img style="top:170px; left:255px;" onclick="fallDown(this)" class="apple" src="C:\Users\San\Desktop\dennoweb\fruit_game\assets\apple.png"/>
+        </div>
+
+        <!-- javascript-->
+        <script type="text/javascript" scr="C:\Users\San\Desktop\dennoweb\fruit_game\assets\js\game.js" ></script>
+    </body>
+</html>
